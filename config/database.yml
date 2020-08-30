@@ -81,5 +81,5 @@ test:
 production:
   <<: *default
   database: rbwapp
-  username: rbwapp
+  username: deploy
   password: <%= ENV['RBWAPP_DATABASE_PASSWORD'] %>
