@@ -80,6 +80,6 @@ test:
 #
 production:
   <<: *default
-  database: rbwapp_production
+  database: rbwapp
   username: rbwapp
   password: <%= ENV['RBWAPP_DATABASE_PASSWORD'] %>
